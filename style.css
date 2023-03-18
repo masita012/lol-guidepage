@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+    font-size: 16px;
+    background: url(media/papyrus-dark.webp);
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+header{
+    background: white;
+}
+header nav ul{
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: black;
+}
+header nav ul li a:hover{
+    color: white;
+    background: black;
+    border-radius: 30px;
+}
+.main{
+    width: 70%;
+    max-width: 700px;
+    background: white;
+    float: left;
+}
+.main .imagen{
+    width: 100%;
+}
+.main .imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+.main .post{
+    padding: 40px;
+}
+.main .post article h2{
+    margin-bottom: 20px;
+    color: #424242;
+}
+.main .post p{
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+aside{
+    width: 30%;
+    background: #161f26;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+aside .widget{
+    margin-bottom: 20px;
+}
+aside .widget .titulo{
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+    margin-bottom: 20px;
+}
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+
+}
+aside .widget ul li a{
+    text-decoration: none;
+    color: white;
+}
+aside .widget ul li a:hover{
+    color: #8f8f8f;
+}
+aside .widget p{
+    line-height: 27px;
+}
+footer{
+    width: 70%;
+    /* width: 700px; */
+    color: white;
+    background: black;
+    text-align: center;
+    clear: both;
+    padding: 15px 0;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+}
+@media screen and (max-width:800px){
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:475px){
+
+}
